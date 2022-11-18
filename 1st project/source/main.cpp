@@ -9,6 +9,6 @@ T add( T a, T b){
 
 int main(){
     std::cout << "Hello from C++ 20 with CMake on Linux/Windows" << std::endl;
-    std::cout << "The sun is : " << add(7,9) << std::endl;
+    std::cout << "The sun is : " << add(7,10) << std::endl;
     return 0;
 }

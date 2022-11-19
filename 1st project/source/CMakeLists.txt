@@ -4,4 +4,4 @@ project(HelloApp
     DESCRIPTION "Yet another hello world app"
     LANGUAGES CXX)
 add_executable(HelloAppExe main.cpp)
-target_compile_features(HelloAppExe PRIVATE cxx_std_20)
+target_compile_features(HelloAppExe PRIVATE cxx_std_17)
